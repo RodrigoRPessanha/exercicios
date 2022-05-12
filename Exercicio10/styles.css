@@ -1,0 +1,15 @@
+li:active{
+    color:darkgreen;
+}
+li:visited{
+    color:maroon;
+}
+li:hover{
+    color:yellow;
+}
+li::selection{
+    color: blue;
+}
+ul li::before {
+    content: "→ ";
+}

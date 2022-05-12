@@ -1,0 +1,16 @@
+main{
+    background-image: url(background-image.jpg);
+
+}
+main h1{
+    font-family: 'impact', Times, serif;
+}
+article{
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    color: red;
+}
+
+article h2{
+    text-align: left;
+}
