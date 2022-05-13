@@ -1,0 +1,21 @@
+li{
+    list-style: none;
+}
+
+.horizontal li{
+    display: inline;
+    background-color: rgb(226, 226, 226);
+    padding: 10px;
+}
+
+.vertical li{
+    display: block;
+    background-color: rgb(226, 226, 226);
+    padding: 10px;
+    width: 89px;
+    margin: 1px;
+}
+li:hover{
+    background-color: none;
+    background-image: url(Sprite_g.jpg);
+}
