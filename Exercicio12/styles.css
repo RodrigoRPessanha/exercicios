@@ -1,0 +1,52 @@
+.header{
+    grid-area: header;
+}
+
+.nav {
+	grid-area: nav;
+}
+
+.section {
+	grid-area: section;
+}
+
+.footer {
+	grid-area: footer;
+}
+
+body{
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "nav section section"
+    "footer footer footer";
+}
+
+header{
+    background-color: rgba(128, 128, 128);
+    color: white;
+    padding-left: 5px;
+}
+
+ul{
+    padding-left: 0px;
+    padding-right: 10px;
+}
+nav ul li{
+    background-color: rgb(226,226,226);
+    list-style: none;
+    padding: 10px;
+    margin: 1px;
+    width: 100px;
+}
+
+footer{
+    background-color: rgba(128, 128, 128);
+    color: white; 
+    padding: 5px;
+}
+
+section{
+    border-left: 1px solid black;
+    padding-left: 10px;
+}

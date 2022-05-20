@@ -5,7 +5,7 @@ li:visited{
     color:maroon;
 }
 li:hover{
-    color:yellow;
+    background-color:yellow;
 }
 li::selection{
     color: blue;
