@@ -2,7 +2,7 @@ function emailChecker(event){
     event.preventDefault();
     var email = document.getElementById("email").value;
 
-    var emailPattern =  /^[_a-z0-9-] + (\.[_a-z0-9-]+) * @[a-z0-9-] + (\.[a-z0-9-]+) * (\.[a-z]{2,4})$/;
+    var emailPattern =  /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
 
     if(emailPattern.test(email)){
         alert("O email é valido!");
