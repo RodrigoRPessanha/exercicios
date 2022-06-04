@@ -1,5 +1,5 @@
-function emailChecker(event){
-    event.preventDefault();
+function emailChecker(){
+    
     var email = document.getElementById("email").value;
 
     var emailPattern =  /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
@@ -13,4 +13,3 @@ function emailChecker(event){
     }
 }
 
-document.getElementById("form").addEventListener('submit', emailChecker);

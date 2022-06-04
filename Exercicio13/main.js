@@ -1,5 +1,4 @@
-function palindromoChecker(event){
-    event.preventDefault();
+function palindromoChecker(){
     let str = document.getElementById("palavra").value;
 
     let re = /[\W_]/g;
@@ -14,5 +13,3 @@ function palindromoChecker(event){
         console.log("A palavra não é um palíndromo!")
     }
 }
-
-document.getElementById("form").addEventListener('submit', palindromoChecker);

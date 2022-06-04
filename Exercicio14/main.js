@@ -10,4 +10,3 @@ function parOuImpar(){
     }
 }
 
-document.getElementById("form").addEventListener('submit', parOuImpar);

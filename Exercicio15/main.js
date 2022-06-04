@@ -1,5 +1,4 @@
-function fatorial(event){
-    event.preventDefault();
+function fatorial(){
     numero = document.getElementById("fatorial").value;
     let fatorial = 0;
     let contador;
@@ -9,5 +8,3 @@ function fatorial(event){
     alert(fatorial);
     console.log(fatorial)
 }
-
-document.getElementById("form").addEventListener('submit', fatorial);
